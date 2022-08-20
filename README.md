@@ -5,7 +5,7 @@
   <br/>
   I develop 👇<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;🌍 websites using Apache, SQLite & Node.<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile application using Ionic & React.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile applications using Ionic & React.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms computer software using electron.<br/>
   <br/>
   I effort for being better developer each day. ✨
