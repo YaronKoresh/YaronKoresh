@@ -8,7 +8,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile applications using Ionic & React.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms computer software using electron.<br/>
   <br/>
-  I effort for being better developer each day. ✨
+  I effort for being a better developer each day. ✨
 </p>
 
 - 💻 I'm interested in cross-platforms code development.
