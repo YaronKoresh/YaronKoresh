@@ -13,8 +13,8 @@
 
 - 💻 I'm interested in cross-platforms code development.
 - ⏰ I think self-learning is my strength.
-- 📝 Use SQL, JS, CSS & HTML.
-- 🙌 Enjoy talking about development.
+- 📝 I Use SQL, JS, CSS & HTML.
+- 🙌 Enjoy talking about development efficiency, coding tricks & issues creative solutions.
 - 🌈 My dream is to make a better development experience.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYaronKoresh&count_bg=%23A0A0A0&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
@@ -28,16 +28,13 @@
   <img src="https://img.shields.io/badge/Android-3DDC84?style=plastic&logo=Android&logoColor=white"/>
   <img src="https://img.shields.io/badge/IPhone-000000?style=plastic&logo=iOS&logoColor=white"/>
   <img src="https://img.shields.io/badge/Apache-F05032?style=plastic&logo=Apache&logoColor=white"/>
-</p>
-<p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ReactNative-61DAFB?style=plastic&logo=React&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-FFFFFF?style=plastic&logo=Electron&logoColor=white"/>
 </p>
 <p>
+  <img src="https://img.shields.io/badge/SQLite-2496ED?style=plastic&logo=SQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Electron-FFFFFF?style=plastic&logo=Electron&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ionic-FF0030?style=plastic&logo=Ionic&logoColor=white"/>
   <img src="https://img.shields.io/badge/Expo-FF0030?style=plastic&logo=Expo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-2496ED?style=plastic&logo=SQL&logoColor=white"/>
 </p>
   
 ![Metrics](https://metrics.lecoq.io/YaronKoresh?template=classic&base.repositories=0&languages=1&languages.ignored=c%2Cc%2B%2B%2Cjava&config.timezone=Asia%2FSeoul&config.animated=true)
