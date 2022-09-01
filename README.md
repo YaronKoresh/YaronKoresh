@@ -4,16 +4,16 @@
   👋 Hi there! I'm a <code>JavaScript Developer</code>.<br/>
   <br/>
   I develop 👇<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;🌍 websites using Apache, SQLite & Node.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;🌐 websites using Apache, SQLite & Node.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile applications using Ionic & React.<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms computer software using electron.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;💻 cross-platforms computer software using electron.<br/>
   <br/>
   I effort for being a better developer each day. ✨
 </p>
 
-- 💻 I'm interested in cross-platforms code development.
-- ⏰ I think self-learning is my strength.
-- 📝 I Use SQL, JS, CSS & HTML.
+- 👨🏻‍💻 I'm interested in cross-platforms code development.
+- 🤓 I think self-learning is my strength.
+- ⌨️ I Use SQL, JS, CSS & HTML.
 - 🙌 Enjoy talking about development efficiency, coding tricks & issues creative solutions.
 - 🌈 My dream is to make a better development experience.
 
@@ -31,7 +31,7 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white"/>
 </p>
 <p>
-  <img src="https://img.shields.io/badge/SQLite-2496ED?style=plastic&logo=SQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-2496ED?style=plastic&logo=SQLite&logoColor=white"/>
   <img src="https://img.shields.io/badge/Electron-FFFFFF?style=plastic&logo=Electron&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ionic-FF0030?style=plastic&logo=Ionic&logoColor=white"/>
   <img src="https://img.shields.io/badge/Expo-FF0030?style=plastic&logo=Expo&logoColor=white"/>
