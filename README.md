@@ -41,4 +41,4 @@
 
 ![Yaron Koresh's github stats](https://github-readme-stats.vercel.app/api?username=YaronKoresh&theme=default&show_icons=true&row=2&column=3)
 
-[![Yaron Koresh's Trophy](https://github-profile-trophy.vercel.app/?username=YaronKoresh&row=1&margin-w=15&theme=chalk&rank=-c,-b)](https://github.com/ryo-ma/github-profile-trophy)
+[![Yaron Koresh's Trophy](https://github-profile-trophy.vercel.app/?username=YaronKoresh&row=1&margin-w=15&theme=chalk&ranks=-c,-b)](https://github.com/ryo-ma/github-profile-trophy)
