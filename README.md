@@ -4,17 +4,17 @@
   👋 Hi there! I'm a <code>JavaScript Developer</code>.<br/>
   <br/>
   I develop 👇<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;🌐 websites using Apache, SQLite & Node.<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile applications using Ionic & React.<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;💻 cross-platforms computer software using electron.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;🌐 servers using Apache & Node.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;📱 cross-platforms mobile applications using Ionic.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;💻 cross-platforms desktop software using electron.<br/>
   <br/>
   I effort for being a better developer each day. ✨
 </p>
 
-- 👨🏻‍💻 I'm interested in cross-platforms code development.
+- 👨🏻‍💻 I'm interested in cryptography JS development.
 - 🤓 I think self-learning is my strength.
-- ⌨️ I Use SQL, JS, CSS & HTML.
-- 🙌 I Enjoy talking about development efficiency, coding tricks & issues creative solutions.
+- ⌨️ I Use JS, CSS & HTML.
+- 🙌 I Enjoy talking about development efficiency, coding tricks, cryptography & issues creative solutions.
 - 🌈 My dream is to make a better development experience.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYaronKoresh&count_bg=%23A0A0A0&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
