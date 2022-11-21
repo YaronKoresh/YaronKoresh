@@ -25,16 +25,9 @@
 #### Skills and Languages
 
 <p>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=plastic&logo=Android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/IPhone-000000?style=plastic&logo=iOS&logoColor=white"/>
   <img src="https://img.shields.io/badge/Apache-F05032?style=plastic&logo=Apache&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=React&logoColor=white"/>
-</p>
-<p>
-  <img src="https://img.shields.io/badge/SQLite-2496ED?style=plastic&logo=SQLite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Electron-FFFFFF?style=plastic&logo=Electron&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Electron-000000?style=plastic&logo=Electron&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ionic-FF0030?style=plastic&logo=Ionic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Expo-FF0030?style=plastic&logo=Expo&logoColor=white"/>
 </p>
   
 ![Metrics](https://metrics.lecoq.io/YaronKoresh?template=classic&base.repositories=0&languages=1&languages.ignored=c%2Cc%2B%2B%2Cjava&config.timezone=Asia%2FSeoul&config.animated=true)
