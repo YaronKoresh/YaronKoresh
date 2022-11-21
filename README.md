@@ -11,7 +11,7 @@
   I effort for being a better developer each day. ✨
 </p>
 
-- 👨🏻‍💻 I'm interested in cryptography JS development.
+- 👨🏻‍💻 I'm interested in cryptography & JS development.
 - 🤓 I think self-learning is my strength.
 - ⌨️ I Use JS, CSS & HTML.
 - 🙌 I Enjoy talking about development efficiency, coding tricks, cryptography & issues creative solutions.
