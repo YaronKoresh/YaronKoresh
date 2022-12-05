@@ -7,7 +7,6 @@
   &nbsp;&nbsp;&nbsp;&nbsp;🌐 servers using Apache & Node.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;📱 mobile applications using Ionic.<br/>
   <br/>
-  I effort for being a better developer each day. ✨
 </p>
 
 - 👨🏻‍💻 I'm interested in cryptography & JS development.
