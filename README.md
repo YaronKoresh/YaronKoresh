@@ -25,7 +25,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/Apache-F05032?style=plastic&logo=Apache&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node-000000?style=plastic&logo=Node&logoColor=white"/>
   <img src="https://img.shields.io/badge/Ionic-FF0030?style=plastic&logo=Ionic&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-F05032?style=plastic&logo=CSS&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML-000000?style=plastic&logo=HTML&logoColor=white"/>
