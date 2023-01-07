@@ -11,7 +11,7 @@
 - 🤓 I think self-learning is my strength.
 - ⌨️ I Use JS, CSS & HTML.
 - 🙌 I Enjoy talking about development efficiency, coding tricks, cryptography & issues creative solutions.
-- 🌈 I love it, it's giving me a reason & hope.
+- 🌈 I love it, it's giving me hope, self-confident & a reason to wake up.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYaronKoresh&count_bg=%23A0A0A0&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 [![Github Badge](http://img.shields.io/badge/-Github-000000?style=flat-square&logo=github&link=https://github.com/YaronKoresh)](https://github.com/YaronKoresh)
