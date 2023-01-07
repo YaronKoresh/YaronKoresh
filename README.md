@@ -1,19 +1,17 @@
 ### Yaron Koresh @YaronKoresh
 
 <p>
-  👋 Hi there! I'm a <code>Mobile JavaScript Developer</code>.<br/>
+  👋 Hi there! I'm a <code>JavaScript Web Developer</code>.<br/>
   <br/>
-  I develop 👇<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;🌐 servers using Apache & Node.<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;📱 mobile applications using Ionic.<br/>
+  I create personal HTTP servers using Apache & Node (for websites 🌐).<br/>
   <br/>
 </p>
 
-- 👨🏻‍💻 I'm interested in cryptography & JS development.
+- 👨🏻‍💻 I'm interested in cryptography, networking & websites development.
 - 🤓 I think self-learning is my strength.
 - ⌨️ I Use JS, CSS & HTML.
 - 🙌 I Enjoy talking about development efficiency, coding tricks, cryptography & issues creative solutions.
-- 🌈 I work on my projects, every day.
+- 🌈 I love it, it's giving me a reason & hope.
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYaronKoresh&count_bg=%23A0A0A0&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 [![Github Badge](http://img.shields.io/badge/-Github-000000?style=flat-square&logo=github&link=https://github.com/YaronKoresh)](https://github.com/YaronKoresh)
@@ -25,7 +23,6 @@
 <p>
   <img src="https://img.shields.io/badge/Apache-F05032?style=plastic&logo=Apache&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node-000000?style=plastic&logo=Node&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ionic-FF0030?style=plastic&logo=Ionic&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-F05032?style=plastic&logo=CSS&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML-000000?style=plastic&logo=HTML&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-FF0030?style=plastic&logo=JavaScript&logoColor=white"/>
