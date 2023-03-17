@@ -10,7 +10,7 @@
 
 
 👨🏻‍💻 I'm interested in cryptography, networking & websites/mobile development.<br/><br/>
-💪 I think self-learning is my strength.<br/><br/>
+💪 Self-learning is my strength.<br/><br/>
 📖 I mainly use my own libraries for styling, multi-threading & 3D graphics, while creating my own syntax.<br/><br/>
 📚 I also use these popular libraries: Bootstrap, JQuery, Capacitor, GPU.js, Pixi & ThreeJS.<br/><br/>
 🛠️ I will always prefer Braintree for sales processing & Twilio with SendGrid for SMS/Email automations.<br/><br/>
