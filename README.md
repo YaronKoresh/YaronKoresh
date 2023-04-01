@@ -1,17 +1,17 @@
 ### Yaron Koresh @YaronKoresh
 
-  👋 Hi there!<br/><br/>
-  I'm a <code>Full Stack Web Developer</code>.<br/><br/>
-  I create personal HTTP servers using Apache Lounge, db.js & Node.<br/><br/>
-  I build websites using Bootstrap & JQuery.<br/><br/>
-  I build applications using Capacitor, Android Studio & XCode.<br/><br/>
-  https://yaron-koresh.official.org.il<br/><br/>
+👋 Hi there!<br/><br/>
+I'm a <code>Full Stack Web Developer</code>.<br/><br/>
+I create personal HTTP servers using Apache Lounge, db.js & Node.<br/><br/>
+I build web/mobile applications, using React, Bootstrap, JQuery, Capacitor & Android Studio.<br/><br/>
 
+https://official.org.il/crash/app<br/><br/>
+https://www.npmjs.com/~yaronkoresh<br/><br/>
 
 👨🏻‍💻 I'm interested in cryptography, networking & websites/mobile development.<br/><br/>
 💪 Self-learning is my strength.<br/><br/>
 📖 I mainly use my own libraries for styling, multi-threading & graphics, while creating my own syntax.<br/><br/>
-📚 I also use these popular libraries: Bootstrap, JQuery, Capacitor, GPU.js, Pixi, CreateJS & ThreeJS.<br/><br/>
+📚 I also use these popular libraries: GPU.js, CreateJS & ThreeJS.<br/><br/>
 🛠️ I will always prefer Braintree for sales processing & Twilio with SendGrid for SMS/Email automations.<br/><br/>
 🙌 I Enjoy talking about development efficiency, coding tricks, cryptography & issues creative solutions.<br/><br/>
 🌈 I like it! it's giving me hope & self-confident.<br/><br/>
