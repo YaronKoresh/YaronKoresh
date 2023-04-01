@@ -5,7 +5,7 @@ I'm a <code>Full Stack Web Developer</code>.<br/><br/>
 I create personal HTTP servers using Apache Lounge, db.js & Node.<br/><br/>
 I build web/mobile applications, using React, Bootstrap, JQuery, Capacitor & Android Studio.<br/><br/>
 
-https://official.org.il/crash/app<br/><br/>
+https://official.org.il/crash/app (in progress, may be unavailable)<br/><br/>
 https://www.npmjs.com/~yaronkoresh<br/><br/>
 
 👨🏻‍💻 I'm interested in cryptography, networking & websites/mobile development.<br/><br/>
