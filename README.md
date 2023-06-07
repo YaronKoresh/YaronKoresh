@@ -1,32 +1,36 @@
 ### Yaron Koresh @YaronKoresh
 
-👋 Hi there!
+   👋 I'm a Junior Full Stack Web Developer! 👋
 
-I'm a Junior Full Stack Web Developer.
+    ⚒️ Here is my toolset for you to enjoy! ⚒️
 
-My deployment toolset:
-- Apache Lounge (HTTP server).
-- Docker.
+📑 Database:
+- MySQL.
+- MongoDB.
 
-My backend toolset:
-- TypeScript.
+🔙 Backend:
+- TS-Node.
 - Express.
-- Braintree (payment).
-- Twilio (sms).
-- SendGrid (email).
+- Braintree (payment gateway).
+- Twilio (SMS automation).
+- SendGrid (Email automation).
 
-My frontend toolset:
+🚪 Frontend:
 - Bootstrap.
 - JQuery.
 - TypeScript.
 - React.
+- Angular.
 - Electron (desktop).
 - Capacitor (mobile).
 
-👨🏻‍💻 I'm interested in cryptography, networking & multiple platforms distribution.
+🛫 Deployment:
+- Apache Lounge (HTTP server).
+- Docker (virtualization based development framework).
+- Batch (Windows CMD automation language).
+
+🤐 I'm interested in cryptography.
 
 📖 Self-learning is my strength.
 
-🛠️ I will always prefer Braintree for payment processing & Twilio with SendGrid integration for SMS/Email automation.
-
-https://www.npmjs.com/~yaronkoresh
+🌐 npmjs.com/~yaronkoresh
