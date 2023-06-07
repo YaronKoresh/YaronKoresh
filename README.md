@@ -1,8 +1,8 @@
 ### Yaron Koresh @YaronKoresh
 
-   👋 I'm a Junior Full Stack Web Developer! 👋
+👋 I'm a Junior Full Stack Web Developer! 👋
 
-    ⚒️ Here is my toolset for you to enjoy! ⚒️
+⚒️ Here is my toolset for you to enjoy! ⚒️
 
 📑 Database:
 - MySQL.
