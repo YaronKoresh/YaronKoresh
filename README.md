@@ -1,8 +1,8 @@
 ### Yaron Koresh @YaronKoresh
 
-👋 I'm a Junior Full Stack Web Developer! 👋
+👋 I'm a Junior Full Stack Web Developer!
 
-🧠 My academic discipline 🧠
+🧠 My academic discipline
 
 📑 Database:
 - MySQL.
