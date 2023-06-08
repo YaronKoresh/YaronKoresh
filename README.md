@@ -2,7 +2,7 @@
 
 👋 I'm a Junior Full Stack Web Developer! 👋
 
-⚒️ Here is my toolset for you to enjoy! ⚒️
+🧠 My academic discipline 🧠
 
 📑 Database:
 - MySQL.
