@@ -1,4 +1,5 @@
-### Yaron Koresh @YaronKoresh
+# Yaron Koresh @YaronKoresh
 
-🌐 npmjs.com/~yaronkoresh
+* [ToDo list](http://github.com/users/YaronKoresh/projects/2/views/1).
 
+* [NPM releases](http://npmjs.com/~yaronkoresh).
