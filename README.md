@@ -26,7 +26,7 @@
   <tr valign='top'>
     <td width='50%' style='padding: 10px;'>
       <h3 style='color: #58A6FF;'>Aetherium Q-Com</h3>
-      <p>A peer-to-peer communication platform that simulates Quantum Key Distribution (QKD) principles to establish provably secure, ephemeral chat sessions. It features a decentralized identity system and an AI-powered Bayesian engine to detect channel anomalies in real-time.</p>
+      <p>A secure messaging application using a One-Time Pad (OTP) for end-to-end encryption. The platform features user identity management, a contact system, and a Gradio-based user interface. It supports both one-on-one secure chats and multi-cast messaging to send a single message to multiple contacts simultaneously.</p>
       <div align='left'>
         <img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' alt='Python'/>
         <img src='https://img.shields.io/badge/Cryptography-007396?style=for-the-badge&logo=gnuprivacyguard&logoColor=white' alt='Cryptography'/>
