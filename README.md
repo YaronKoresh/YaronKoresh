@@ -26,7 +26,7 @@
   <tr valign='top'>
     <td width='50%' style='padding: 10px;'>
       <h3 style='color: #58A6FF;'>Aetherium Q-Com</h3>
-      <p>A secure messaging application using a One-Time Pad (OTP) for end-to-end encryption. The platform features user identity management, a contact system, and a Gradio-based user interface. It supports both one-on-one secure chats and multi-cast messaging to send a single message to multiple contacts simultaneously.</p>
+      <p>A zero-trust communication platform engineered for truly private, censorship-resistant messaging. It establishes direct, peer-to-peer connections that are invisible to network monitoring and protected by a multi-layered AI security system.</p>
       <div align='left'>
         <img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' alt='Python'/>
         <img src='https://img.shields.io/badge/Cryptography-007396?style=for-the-badge&logo=gnuprivacyguard&logoColor=white' alt='Cryptography'/>
