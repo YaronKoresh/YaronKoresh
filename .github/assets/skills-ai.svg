@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="title">//: Interactive Digital Workshop</div>
                 <div class="grid">
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" class="category expanded" target="_blank">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" class="category expanded">
                         <div class="cat-title">🤖 AI &amp; Machine Learning</div>
                         <div class="skills">
                             <span class="skill">PyTorch</span>
@@ -28,11 +28,11 @@
                             <span class="skill">Librosa</span>
                         </div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category" target="_blank">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category">
                         <div class="cat-title">⚙️ Systems &amp; Backend</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category" target="_blank">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category">
                         <div class="cat-title">🎨 Frontend &amp; UI</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
