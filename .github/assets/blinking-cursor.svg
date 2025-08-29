@@ -1,0 +1,14 @@
+<svg width="12" height="20" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .cursor {
+            fill: #82AAFF;
+            animation: blink 1s infinite step-end;
+            box-shadow: 0 0 5px #82AAFF;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+    <rect class="cursor" x="0" y="0" width="10" height="20" rx="2"/>
+</svg>
