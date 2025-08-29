@@ -1,14 +1,18 @@
-<svg fill="none" width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="900" height="320" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+                @keyframes pulseBorder {
+                    0%, 100% { border-color: #414868; }
+                    50% { border-color: #7AA2F7; }
+                }
                 .container {
                     font-family: 'Fira Code', 'Segoe UI', Ubuntu, sans-serif;
                     background-color: #1A1B27;
                     border-radius: 10px;
                     width: 100%;
-                    height: 300px;
+                    height: 320px;
                     color: #C0CAF5;
                     display: flex;
                     flex-direction: column;
@@ -21,7 +25,7 @@
                     font-size: 24px;
                     font-weight: bold;
                     color: #82AAFF;
-                    margin-bottom: 20px;
+                    margin-bottom: 25px;
                 }
                 .grid {
                     display: flex;
@@ -34,36 +38,24 @@
                     border-radius: 8px;
                     padding: 20px;
                     border: 1px solid #414868;
-                    transition: all 0.3s ease;
-                    cursor: default;
-                    min-height: 150px;
+                    animation: pulseBorder 5s infinite ease-in-out;
                 }
-                .category:hover {
-                    transform: translateY(-5px);
-                    border-color: #7AA2F7;
+                .grid .category:nth-child(2) {
+                    animation-delay: 0.7s;
+                }
+                .grid .category:nth-child(3) {
+                    animation-delay: 1.4s;
                 }
                 .cat-title {
                     font-size: 18px;
                     font-weight: bold;
-                    margin-bottom: 10px;
-                }
-                .cat-desc {
-                    font-size: 14px;
-                    color: #A9B1D6;
-                    opacity: 1;
-                    transition: opacity 0.4s ease, max-height 0.4s ease;
-                    max-height: 100px;
+                    margin-bottom: 15px;
                 }
                 .skills {
-                    opacity: 0;
-                    max-height: 0;
-                    overflow: hidden;
-                    transition: opacity 0.4s ease, max-height 0.4s ease;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     gap: 8px;
-                    margin-top: 10px;
                 }
                 .skill {
                     background-color: #414868;
@@ -72,35 +64,24 @@
                     border-radius: 5px;
                     font-size: 14px;
                 }
-                .category:hover .skills {
-                    opacity: 1;
-                    max-height: 150px;
-                }
-                .category:hover .cat-desc {
-                    opacity: 0;
-                    max-height: 0;
-                }
             </style>
             <div class="container">
                 <div class="title">//: Digital Workshop</div>
                 <div class="grid">
                     <div class="category">
                         <div class="cat-title">🤖 AI &amp; Machine Learning</div>
-                        <div class="cat-desc">Hover to reveal skills</div>
                         <div class="skills">
                             <span class="skill">PyTorch</span><span class="skill">Transformers</span><span class="skill">Gradio</span><span class="skill">Scikit-learn</span><span class="skill">Numpy</span><span class="skill">Librosa</span>
                         </div>
                     </div>
                     <div class="category">
                         <div class="cat-title">⚙️ Systems &amp; Backend</div>
-                        <div class="cat-desc">Hover to reveal skills</div>
                         <div class="skills">
                             <span class="skill">C++</span><span class="skill">Python</span><span class="skill">Node.js</span><span class="skill">Bash</span><span class="skill">Cryptography</span><span class="skill">Docker</span><span class="skill">Git</span>
                         </div>
                     </div>
                     <div class="category">
                         <div class="cat-title">🎨 Frontend &amp; UI</div>
-                        <div class="cat-desc">Hover to reveal skills</div>
                         <div class="skills">
                             <span class="skill">JavaScript</span><span class="skill">Qt</span><span class="skill">PySide</span><span class="skill">Gradio</span><span class="skill">Web Accessibility</span>
                         </div>
@@ -110,4 +91,3 @@
         </div>
     </foreignObject>
 </svg>
-
