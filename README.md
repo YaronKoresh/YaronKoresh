@@ -113,11 +113,6 @@ This tool tackles the notorious pain points of systems development by simplifyin
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaronKoresh&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Yaron's Top Languages"/>
   </a>
 </p>
-<p align='center'>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=YaronKoresh&theme=gruvbox&column=7&no-frame=true" alt="GitHub Trophies"/>
-  </a>
-</p>
 
 -----
 
