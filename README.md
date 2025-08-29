@@ -20,22 +20,26 @@
 </div>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+</div>
 
 <!-- Core Philosophy in a Terminal Window -->
 <div align="center" style="background-color: #0D1117; border-radius: 8px; border: 1px solid #30363d; padding: 10px; margin: 20px auto; max-width: 800px;">
-  <div style="background-color: #30363d; padding: 5px 10px; border-top-left-radius: 7px; border-top-right-radius: 7px; text-align: left;">
+  <div style="background-color: #30363d; border-top-radius: 7px; text-align: left; padding: 100px;">
     <samp style="color: #c9d1d9; font-size: 12px;"><b>//: Core Philosophy</b></samp>
   </div>
   <p align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1000&color=A4D5FF&background=0D1117&center=true&vCenter=true&random=false&width=800&lines=I+believe+the+most+impactful+technology+arises+from+the+synthesis+of+disparate+fields.;My+work+is+a+continuous+exploration+of+this+principle...;...whether+applying+quantum+physics+to+secure+communications%2C;architecting+system-level+tools%2C+or+ensuring+digital+accessibility.;My+goal+is+not+just+to+write+code%2C+but+to+build+instruments;for+security%2C+for+efficiency%2C+and+for+creativity;that+empower+the+end-user+and+respect+their+autonomy." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1000&color=A4D5FF&background=0D1117&center=true&vCenter=true&random=false&width=800&lines=I+believe+the+most+impactful+technology+arises+from+the+synthesis+of+disparate+fields.;My+work+is+a+continuous+exploration+of+this+principle;whether+applying+quantum+physics+to+secure+communications%2C;architecting+system-level+tools%2C+or+ensuring+digital+accessibility.;My+goal+is+not+just+to+write+code%2C+but+to+build+instruments;for+security%2C+for+efficiency%2C+and+for+creativity;that+empower+the+end-user+and+respect+their+autonomy." alt="Typing SVG" />
     </a>
   </p>
 </div>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+</div>
 
 <h2 align='center'>🚀 Featured Projects 🚀</h2>
 <p align='center'>A selection of my most significant work.</p>
@@ -99,7 +103,9 @@
 </details>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+</div>
 
 <h2 align='center'>🛠️ Digital Workshop 🛠️</h2>
 <p align="center">
@@ -107,7 +113,9 @@
 </p>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+</div>
 
 <h2 align='center'>📊 GitHub Stats & Activity 📊</h2>
 <div align='center'>
@@ -120,7 +128,9 @@
 </div>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
+</div>
 
 <h2 align='center'>🎶 Beyond the Code 🎶</h2>
 <table width='100%'>
