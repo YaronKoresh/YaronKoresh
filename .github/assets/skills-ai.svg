@@ -1,5 +1,3 @@
-<details>
-<summary><strong>Click to view code for <code>skills-ai.svg</code></strong></summary>
 <svg fill="none" width="800" height="450" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
@@ -19,7 +17,7 @@
             <div class="container">
                 <div class="title">//: Interactive Digital Workshop</div>
                 <div class="grid">
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" class="category expanded">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" class="category expanded" target="_blank">
                         <div class="cat-title">🤖 AI &amp; Machine Learning</div>
                         <div class="skills">
                             <span class="skill">PyTorch</span>
@@ -30,11 +28,11 @@
                             <span class="skill">Librosa</span>
                         </div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category" target="_blank">
                         <div class="cat-title">⚙️ Systems &amp; Backend</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category" target="_blank">
                         <div class="cat-title">🎨 Frontend &amp; UI</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
@@ -43,5 +41,3 @@
         </div>
     </foreignObject>
 </svg>
-</details>
-
