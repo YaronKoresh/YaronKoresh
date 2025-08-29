@@ -26,10 +26,12 @@
   <tr valign='top'>
     <td width='50%' style='padding: 10px;'>
       <h3 style='color: #58A6FF;'>Aetherium Q-Com</h3>
-      <p>A zero-trust communication platform engineered for truly private, censorship-resistant messaging. It establishes direct, peer-to-peer connections that are invisible to network monitoring and protected by a multi-layered AI security system.</p>
+      <p>A decentralized, zero-trust communication platform fortified with <strong>post-quantum cryptography</strong> (ML-DSA/KEM) to ensure private, censorship-resistant messaging. It features a novel invitation system using <strong>steganography</strong> to securely embed invites within media files (images, audio, video). All peer-to-peer traffic is obfuscated to resist network analysis and blocking.</p>
       <div align='left'>
         <img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' alt='Python'/>
-        <img src='https://img.shields.io/badge/Cryptography-007396?style=for-the-badge&logo=gnuprivacyguard&logoColor=white' alt='Cryptography'/>
+        <img src='https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white' alt='Qt'/>
+        <img src='https://img.shields.io/badge/Post_Quantum_Cryptography-007396?style=for-the-badge&logo=gnuprivacyguard&logoColor=white' alt='Post-Quantum Cryptography'/>
+        <img src='https://img.shields.io/badge/Steganography-D2691E?style=for-the-badge' alt='Steganography'/>
       </div>
     </td>
     <td width='50%' style='padding: 10px;'>
