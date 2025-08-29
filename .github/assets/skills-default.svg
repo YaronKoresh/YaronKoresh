@@ -14,15 +14,15 @@
             <div class="container">
                 <div class="title">//: Interactive Digital Workshop</div>
                 <div class="grid">
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ai.svg" class="category">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ai.svg" class="category" target="_self">
                         <div class="cat-title">🤖 AI &amp; Machine Learning</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-systems.svg" class="category" target="_self">
                         <div class="cat-title">⚙️ Systems &amp; Backend</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
-                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category">
+                    <a href="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-ui.svg" class="category" target="_self">
                         <div class="cat-title">🎨 Frontend &amp; UI</div>
                         <div class="cat-desc">Click to Expand</div>
                     </a>
