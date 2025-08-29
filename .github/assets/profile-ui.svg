@@ -2,7 +2,6 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
                 
                 :root {
                     --bg-color: #0D1117;
@@ -17,7 +16,7 @@
                 @keyframes blink { 50% { opacity: 0; } }
 
                 .container {
-                    font-family: 'Fira Code', sans-serif;
+                    font-family: sans-serif;
                     background-color: var(--bg-color);
                     color: var(--text-color);
                     width: 1200px;
