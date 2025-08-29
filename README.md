@@ -14,7 +14,6 @@
 
 <br>
 
-<!-- GitHub Activity Snake -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
 </div>
@@ -27,7 +26,6 @@
   <img src="https://user-images.githubusercontent.com/55383328/143322122-334a14f6-692b-4233-a9d7-953e5b30634c.gif" width="50px" />
 </p>
 
-<!-- Animated Terminal Bio -->
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1000&color=A4D5FF&background=0D1117&center=true&vCenter=true&random=false&width=800&lines=I+believe+the+most+impactful+technology+arises+from+the+synthesis+of+disparate+fields.;My+work+is+a+continuous+exploration+of+this+principle...;...whether+applying+quantum+physics+to+secure+communications%2C;architecting+system-level+tools%2C+or+ensuring+digital+accessibility.;My+goal+is+not+just+to+write+code%2C+but+to+build+instruments;for+security%2C+for+efficiency%2C+and+for+creativity;that+empower+the+end-user+and+respect+their+autonomy." alt="Typing SVG" />
@@ -104,57 +102,22 @@ This tool tackles the notorious pain points of systems development by simplifyin
 
 -----
 
-<h2 align='center'>📊 My GitHub Stats 📊</h2>
-<p align='center'>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yaron's GitHub Stats"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaronKoresh&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Yaron's Top Languages"/>
-  </a>
+<h2 align='center'>🛠️ My Digital Workshop 🛠️</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" alt="Interactive Skills SVG"/>
 </p>
 
 -----
 
-<h2 align='center'>🛠️ My Digital Workshop 🛠️</h2>
-
-<h3 align='center'>Languages</h3>
-<p align='center'>
-  <a href="#"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"></a>
-</p>
-
-<h3 align='center'>AI & Machine Learning</h3>
-<p align='center'>
-  <a href="#"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Transformers-4051B5?style=for-the-badge&logo=huggingface&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/librosa-FF5733?style=for-the-badge&logo=python&logoColor=white"></a>
-</p>
-
-<h3 align='center'>Frameworks, Runtimes & Libraries</h3>
-<p align='center'>
-  <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Pyside-2D6282?style=for-the-badge&logo=python&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"></a>
-</p>
-
-<h3 align='center'>Domains & Tools</h3>
-<p align='center'>
-  <a href="#"><img src="https://img.shields.io/badge/Cryptography-007396?style=for-the-badge&logo=gnuprivacyguard&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Generative_AI-9B30FF?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Decentralization-F2A900?style=for-the-badge&logo=bitcoin&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Developer_Tools-6A0DAD?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Web_Accessibility-005A9C?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Music_Technology-E0234E?style=for-the-badge"></a>
-</p>
+<h2 align='center'>📊 My GitHub Stats 📊</h2>
+<div align='center'>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yaron's GitHub Stats"/>
+  </a>
+  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YaronKoresh&theme=tokyonight&hide_border=true" alt="Yaron's GitHub Streak"/>
+  </a>
+</div>
 
 -----
 
