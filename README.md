@@ -14,17 +14,14 @@
 
 <br>
 
-<!-- GitHub Activity Snake -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="GitHub Contribution Snake"/>
 </div>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
-<!-- Core Philosophy in a Terminal Window -->
 <div align="center" style="background-color: #0D1117; border-radius: 8px; border: 1px solid #30363d; padding: 10px; margin: 20px auto; max-width: 800px;">
   <div style="background-color: #30363d; padding: 5px 10px; border-top-left-radius: 7px; border-top-right-radius: 7px; text-align: left;">
     <samp style="color: #c9d1d9; font-size: 12px;"><b>//: Core Philosophy</b></samp>
@@ -36,31 +33,28 @@
   </p>
 </div>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
-<h2 align='center'>🚀 Featured Projects 🚀</h2>
-<p align='center'>A selection of my most significant work.</p>
+<h2 align='center'>🚀 Featured Projects <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h2>
 
 <table width="100%">
 <tr valign="top">
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🎵 Audio Studio Pro</h3>
-  <em>A comprehensive, AI-powered digital audio workstation providing a one-stop solution for modern audio production, featuring over 20 distinct AI-driven tools.</em>
+  <em>An AI-powered digital audio workstation providing a one-stop solution for modern audio production, featuring over 20 distinct AI-driven tools.</em>
   <br/><br/>
   <div align='left'>
     <img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' alt='Python'/>
     <img src='https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white' alt='PyTorch'/>
     <img src='https://img.shields.io/badge/Transformers-4051B5?style=for-the-badge&logo=huggingface&logoColor=white' alt='Transformers'/>
-    <img src='https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white' alt='Gradio'/>
   </div>
 </div>
 </td>
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🛡️ Aetherium Q-Com</h3>
   <em>A decentralized, zero-trust messenger fortified with post-quantum cryptography (ML-DSA/KEM) and steganography for secure, untraceable communication.</em>
   <br/><br/>
@@ -74,7 +68,7 @@
 </tr>
 <tr valign="top">
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🗄️ DB (NodeJS)</h3>
   <em>A lightweight, zero-dependency NoSQL-style database that runs on simple text files, providing a versioned, human-readable data store without a heavy server.</em>
   <br/><br/>
@@ -85,21 +79,20 @@
 </div>
 </td>
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>📦 Project Bundler</h3>
   <em>A CLI utility to automate the complex build and packaging process for C/C++ and Node.js applications, simplifying dependency management.</em>
   <br/><br/>
   <div align='left'>
     <img src='https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white' alt='Node.js'/>
     <img src='https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white' alt='C++'/>
-    <img src='https://img.shields.io/badge/Developer_Tools-6A0DAD?style=for-the-badge' alt='Developer Tools'/>
   </div>
 </div>
 </td>
 </tr>
 <tr valign="top">
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🌐 C++/Qt Web Browser</h3>
   <em>A custom web browser built from the ground up, focusing on performance, security, and a minimalist user experience.</em>
   <br/><br/>
@@ -110,7 +103,7 @@
 </div>
 </td>
 <td width="50%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🛠️ Reverse Engineering Toolkit</h3>
   <em>An open-source suite for ethical security research, including tools for static/dynamic analysis, disassembly, and protocol inspection.</em>
   <br/><br/>
@@ -121,38 +114,22 @@
 </div>
 </td>
 </tr>
-<tr valign="top">
-<td width="50%" style="padding: 10px;" colspan="2">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2));">
-  <h3>👓 Web Accessibility Engine</h3>
-  <em>A real-time, browser-native engine using pure JavaScript and CSS to analyze the DOM for WCAG compliance issues and apply live, non-destructive fixes.</em>
-  <br/><br/>
-  <div align='left'>
-    <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' alt='JavaScript'/>
-    <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS3'/>
-    <img src='https://img.shields.io/badge/Web_Accessibility-005A9C?style=for-the-badge' alt='Web Accessibility'/>
-  </div>
-</div>
-</td>
-</tr>
 </table>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
-<h2 align='center'>🛠️ Digital Workshop 🛠️</h2>
+<h2 align='center'>🛠️ Digital Workshop <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h2>
 <p align="center">
   <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills.svg" alt="My Skills"/>
 </p>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
-<h2 align='center'>📊 GitHub Stats & Activity 📊</h2>
+<h2 align='center'>📊 GitHub Stats & Activity <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h2>
 <div align='center'>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yaron's GitHub Stats"/>
@@ -162,31 +139,33 @@
   </a>
 </div>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
-<h2 align='center'>🎶 Beyond the Code 🎶</h2>
+<h2 align='center'>🎶 Beyond the Code <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h2>
 <table width='100%'>
   <tr valign='top'>
-    <td width='50%' style='padding: 15px;'>
+    <td width='50%' style="padding: 15px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
       <h4 align='center'>Official Artist at ACUM</h4>
       As a recognized composer and musician, I explore the fusion of complex musical structures with technological innovation. This creative outlet provides a unique perspective on software architecture, influencing my approach to design with principles of harmony, rhythm, and flow.
+</div>
     </td>
-    <td width='50%' style='padding: 15px;'>
+    <td width='50%' style="padding: 15px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
       <h4 align='center'>Community Contributor</h4>
       I believe in giving back to the communities that have helped me grow. I actively develop and maintain open-source tools for fellow creators, most notably my popular plugins for the MuseScore music notation ecosystem, which are used by thousands of musicians worldwide.
+</div>
     </td>
   </tr>
 </table>
 
-<!-- Animated Divider -->
 <div align="center">
     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/divider.svg" />
 </div>
 
 <div align='center'>
-  <h3>🤝 Connect & Collaborate 🤝</h3>
+  <h3>🤝 Connect & Collaborate <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 20px; vertical-align: middle;" /></h3>
   <p>I'm always open to connecting with fellow developers, researchers, and creators. If you're working on something unconventional or have a shared interest in building the future of technology, let's talk.</p>
 </div>
