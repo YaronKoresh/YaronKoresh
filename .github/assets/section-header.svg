@@ -1,0 +1,19 @@
+<svg width="800" height="40" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:0" />
+            <stop offset="50%" style="stop-color:#58A6FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#58A6FF;stop-opacity:0" />
+            <animate attributeName="x1" from="-100%" to="200%" dur="3s" repeatCount="indefinite" />
+            <animate attributeName="x2" from="0%" to="300%" dur="3s" repeatCount="indefinite" />
+        </linearGradient>
+    </defs>
+    <rect x="2" y="18" width="99.5%" height="2" fill="#30363d" />
+    <rect x="2" y="18" width="99.5%" height="2" fill="url(#glow)" />
+    <circle cx="10" cy="20" r="6" fill="#58A6FF">
+        <animate attributeName="r" values="6;8;6" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="790" cy="20" r="6" fill="#58A6FF">
+         <animate attributeName="r" values="6;8;6" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+    </circle>
+</svg>
