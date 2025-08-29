@@ -1,0 +1,155 @@
+<svg fill="none" width="1200" height="1750" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
+                
+                :root {
+                    --bg-color: #0D1117;
+                    --card-bg: #161B22;
+                    --border-color: #30363D;
+                    --primary-color: #58A6FF;
+                    --text-color: #C9D1D9;
+                    --subtle-text: #8B949E;
+                }
+
+                @keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }
+                @keyframes blink { 50% { opacity: 0; } }
+
+                .container {
+                    font-family: 'Fira Code', sans-serif;
+                    background-color: var(--bg-color);
+                    color: var(--text-color);
+                    width: 1200px;
+                    height: 1750px;
+                    padding: 30px;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    animation: fadeIn 1s ease-out;
+                }
+
+                .card {
+                    background-color: var(--card-bg);
+                    border: 1px solid var(--border-color);
+                    border-radius: 8px;
+                    padding: 20px;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+                    animation: fadeIn 1s ease-out forwards;
+                    opacity: 0;
+                }
+                
+                .header { animation-delay: 0.2s; }
+                .snake-card { animation-delay: 0.4s; }
+                .philosophy-card { animation-delay: 0.6s; }
+                .projects-card { animation-delay: 0.8s; }
+                .workshop-card { animation-delay: 1.0s; }
+                .stats-card { animation-delay: 1.2s; }
+                .beyond-card { animation-delay: 1.4s; }
+                .connect-card { animation-delay: 1.6s; }
+
+                h1, h2, h3 { color: var(--primary-color); text-shadow: 0 0 5px rgba(88, 166, 255, 0.5); }
+                h2 { font-size: 24px; text-align: center; margin-bottom: 20px; }
+                h3 { display: inline-block; vertical-align: middle; }
+
+                .cursor {
+                    display: inline-block;
+                    width: 10px;
+                    height: 1.2em;
+                    background-color: var(--primary-color);
+                    animation: blink 1s step-end infinite;
+                    margin-left: 8px;
+                    vertical-align: middle;
+                }
+
+                .project-grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
+                }
+                .project {
+                    background-color: rgba(48, 54, 61, 0.3);
+                    border-radius: 6px;
+                    padding: 15px;
+                }
+
+                .skills-grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 15px;
+                }
+                .skill-category { text-align: center; }
+                .skill { display: inline-block; background-color: var(--border-color); padding: 5px 10px; border-radius: 4px; font-size: 14px; margin: 4px; }
+
+            </style>
+            <div class="container">
+                <!-- Header -->
+                <div class="card header" style="text-align: center;">
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=30&amp;pause=1000&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=500&amp;lines=Hi+there+%F0%9F%91%8B;I'm+Yaron+Koresh;Polymath+Developer;&amp;Creative+Technologist" alt="Typing SVG" />
+                    <div style="margin-top: 20px;">
+                        <a href="https://www.facebook.com/profile.php?id=100071801628056" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook"/></a>
+                        <a href="mailto:aharonkoresh1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"/></a>
+                    </div>
+                </div>
+
+                <!-- Snake -->
+                <div class="card snake-card" style="padding: 5px; text-align: center;">
+                     <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="GitHub Contribution Snake"/>
+                </div>
+
+                <!-- Philosophy -->
+                <div class="card philosophy-card">
+                    <h2>//: Core Philosophy<span class="cursor"></span></h2>
+                    <p style="font-size: 15px; text-align: center; color: var(--subtle-text);">
+                        I believe the most impactful technology arises from the synthesis of disparate fields. My work is a continuous exploration of this principle, whether applying quantum physics to secure communications, architecting system-level tools, or ensuring digital accessibility. My goal is not just to write code, but to build instruments—for security, for efficiency, and for creativity—that empower the end-user and respect their autonomy.
+                    </p>
+                </div>
+
+                <!-- Projects -->
+                <div class="card projects-card">
+                    <h2>🚀 Featured Projects<span class="cursor"></span></h2>
+                    <div class="project-grid">
+                        <div class="project"><h3>🎵 Audio Studio Pro</h3><em>AI-powered digital audio workstation.</em></div>
+                        <div class="project"><h3>🛡️ Aetherium Q-Com</h3><em>Post-quantum encrypted messenger.</em></div>
+                        <div class="project"><h3>🗄️ DB (NodeJS)</h3><em>Zero-dependency flat-file database.</em></div>
+                        <div class="project"><h3>📦 Project Bundler</h3><em>Automated build &amp; packaging tool.</em></div>
+                        <div class="project"><h3>🌐 C++/Qt Web Browser</h3><em>Custom browser focused on performance.</em></div>
+                        <div class="project"><h3>🛠️ R.E. Toolkit</h3><em>Open-source suite for security research.</em></div>
+                    </div>
+                </div>
+                
+                <!-- Skills -->
+                <div class="card workshop-card">
+                    <h2>🛠️ Digital Workshop<span class="cursor"></span></h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>🤖 AI &amp; ML</h3>
+                            <p><span class="skill">PyTorch</span><span class="skill">Transformers</span><span class="skill">Gradio</span><span class="skill">Scikit-learn</span></p>
+                        </div>
+                        <div class="skill-category">
+                            <h3>⚙️ Systems &amp; Backend</h3>
+                            <p><span class="skill">C++</span><span class="skill">Python</span><span class="skill">Node.js</span><span class="skill">Cryptography</span><span class="skill">Docker</span></p>
+                        </div>
+                        <div class="skill-category">
+                            <h3>🎨 Frontend &amp; UI</h3>
+                            <p><span class="skill">JavaScript</span><span class="skill">Qt</span><span class="skill">PySide</span><span class="skill">Gradio</span><span class="skill">Accessibility</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="card stats-card" style="text-align: center;">
+                    <img src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&amp;show_icons=true&amp;include_all_commits=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="Yaron's GitHub Stats"/>
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YaronKoresh&amp;theme=tokyonight&amp;hide_border=true" alt="Yaron's GitHub Streak"/>
+                </div>
+                
+                <!-- Beyond Code & Connect -->
+                 <div class="card beyond-card" style="text-align: center;">
+                    <h2>🎶 Beyond the Code<span class="cursor"></span></h2>
+                    <p style="color: var(--subtle-text);">Official Artist at ACUM, composer, and creator of open-source tools for the MuseScore ecosystem, used by thousands of musicians worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
