@@ -104,7 +104,9 @@ This tool tackles the notorious pain points of systems development by simplifyin
 
 <h2 align='center'>🛠️ My Digital Workshop 🛠️</h2>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" alt="Interactive Skills SVG"/>
+  <a href="https://github.com/YaronKoresh/YaronKoresh">
+    <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills-default.svg" alt="Interactive Skills SVG"/>
+  </a>
 </p>
 
 -----
