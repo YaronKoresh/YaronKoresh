@@ -23,7 +23,6 @@
   <a href="mailto:aharonkoresh1@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftimeapi.io%2Fapi%2Ftime%2Fcurrent%2Fzone%3FtimeZone%3DAsia%2FJerusalem&query=%24.time&label=Local%20Time%20(Israel)&color=white&style=for-the-badge&logo=clockify&logoColor=black" alt="Current Time in Israel"/>
 </div>
 
 <div align="center"><img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/section-header.svg" /></div>
