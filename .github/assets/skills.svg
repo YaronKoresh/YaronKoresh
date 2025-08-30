@@ -20,12 +20,6 @@
                     text-align: center;
                     animation: fadeIn 0.8s ease-in-out;
                 }
-                .title {
-                    font-size: 24px;
-                    font-weight: bold;
-                    color: #82AAFF;
-                    margin-bottom: 25px;
-                }
                 .grid {
                     display: flex;
                     gap: 20px;
@@ -85,7 +79,6 @@
                 }
             </style>
             <div class="container">
-                <div class="title">//: Digital Workshop</div>
                 <div class="grid">
                     <div class="category">
                         <div class="cat-title">🤖 AI &amp; Machine Learning</div>
