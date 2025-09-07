@@ -121,7 +121,7 @@
 <h1 align='center'>📚 My Skills <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/refs/heads/main/.github/assets/skills.svg" alt="My Skills"/>
+  <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/skills.svg" alt="My Skills"/>
 </p>
 
 <h1 align='center'>📊 Stats & Activity <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" /></h1>
