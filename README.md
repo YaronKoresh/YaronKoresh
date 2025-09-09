@@ -71,7 +71,7 @@
 <td width="33.3%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>📦 Project Bundler</h3>
-  <em>A CLI utility to automate the build process for C++/Node.js apps.</em>
+  <em>A CLI utility to automate the Bundling process for C/C++ projects.</em>
   <br/><br/>
   <div align='left'>
     <img src='https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white' alt='Node.js'/>
@@ -93,7 +93,7 @@
 <td width="33.3%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%;">
   <h3>🛠️ R.E. Toolkit</h3>
-  <em>An open-source suite for ethical security research and analysis.</em>
+  <em>A reverse engineering suite for ethical security research and analysis.</em>
   <br/><br/>
   <div align='left'>
     <img src='https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white' alt='C++'/>
