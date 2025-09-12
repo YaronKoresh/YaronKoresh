@@ -129,11 +129,11 @@
 <div align="center" width="100%">
   <br>
   <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaronKoresh&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Yaron's Top Languages"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YaronKoresh&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&cache_bust=1" alt="Yaron's Top Languages"/>
   </div>
   <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yaron's GitHub Stats"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YaronKoresh&theme=tokyonight&hide_border=true" alt="Yaron's GitHub Streak"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=YaronKoresh&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&count_private=true&cache_bust=1" alt="Yaron's GitHub Stats"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YaronKoresh&theme=tokyonight&hide_border=true&cache_bust=1" alt="Yaron's GitHub Streak"/>
   </div>
   <br>
 </div>
