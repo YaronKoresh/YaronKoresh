@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Test outputs
+test_output/
+
+# Deprecated configuration files
+# projects_config.json is no longer used - kept for historical reference only
+# (commenting out to keep it in repo for now, but it's not used by the automation)
