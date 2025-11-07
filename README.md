@@ -68,7 +68,7 @@
   <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
   <p><em>Config files for my GitHub profile.</em></p>
   <div style="margin-top: 10px;">
-    
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </div>
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-config-blue?style=flat-square" alt="config"/> <img src="https://img.shields.io/badge/-github--config-blue?style=flat-square" alt="github-config"/> </div>
 </div>
@@ -336,7 +336,7 @@
 
 <div align="center">
   <sub>
-    Last updated: November 06, 2025<br/>
+    Last updated: November 07, 2025<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
