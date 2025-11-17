@@ -336,7 +336,7 @@
 
 <div align="center">
   <sub>
-    Last updated: November 16, 2025<br/>
+    Last updated: November 17, 2025<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
