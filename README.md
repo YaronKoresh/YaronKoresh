@@ -45,22 +45,22 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/Audacity-Plugins" target="_blank">Audacity Plugins</a></h3>
+  <img src="https://img.shields.io/badge/⭐_Stars-3-yellow?style=for-the-badge" alt="3 stars"/><br/><p><em>Audacity plugins</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Lisp-3C5280?style=for-the-badge&logo=lisp&logoColor=white" alt="Common Lisp"/>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-audacity-blue?style=flat-square" alt="audacity"/> <img src="https://img.shields.io/badge/-automation-blue?style=flat-square" alt="automation"/> <img src="https://img.shields.io/badge/-plugins-blue?style=flat-square" alt="plugins"/> </div>
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/audio-studio-pro" target="_blank">Audio Studio Pro</a></h3>
   <img src="https://img.shields.io/badge/⭐_Stars-2-yellow?style=for-the-badge" alt="2 stars"/><br/><p><em>Audio Studio Pro is a comprehensive, AI-powered application for professional audio production.</em></p>
   <div style="margin-top: 10px;">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </div>
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-acapella--extractor-blue?style=flat-square" alt="acapella-extractor"/> <img src="https://img.shields.io/badge/-ai--chatbot-blue?style=flat-square" alt="ai-chatbot"/> <img src="https://img.shields.io/badge/-audio--analysis-blue?style=flat-square" alt="audio-analysis"/> </div>
-</div>
-</td>
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/Audacity-Plugins" target="_blank">Audacity Plugins</a></h3>
-  <img src="https://img.shields.io/badge/⭐_Stars-2-yellow?style=for-the-badge" alt="2 stars"/><br/><p><em>Audacity plugins</em></p>
-  <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Lisp-3C5280?style=for-the-badge&logo=lisp&logoColor=white" alt="Common Lisp"/>
-  </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-audacity-blue?style=flat-square" alt="audacity"/> <img src="https://img.shields.io/badge/-automation-blue?style=flat-square" alt="automation"/> <img src="https://img.shields.io/badge/-plugins-blue?style=flat-square" alt="plugins"/> </div>
 </div>
 </td>
 <td width="25%" style="padding: 10px;">
@@ -360,7 +360,7 @@
 
 <div align="center">
   <sub>
-    Last updated: December 14, 2025<br/>
+    Last updated: December 15, 2025<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
