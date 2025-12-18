@@ -65,26 +65,16 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/SysMan" target="_blank">Sysman</a></h3>
-  <img src="https://img.shields.io/badge/⭐_Stars-1-yellow?style=for-the-badge" alt="1 stars"/><br/><p><em>SysMan is a monolithic, "Swiss Army Knife" utility designed for System Administrators and IT Support teams. It consolidates over 200 diagnostic, maintenance, and automation tools.</em></p>
+  <h3><a href="https://github.com/YaronKoresh/definers" target="_blank">Definers</a></h3>
+  <img src="https://img.shields.io/badge/⭐_Stars-1-yellow?style=for-the-badge" alt="1 stars"/><br/><p><em>A comprehensive Python toolkit for AI, data processing, media manipulation, and system utilities.</em></p>
   <div style="margin-top: 10px;">
-    
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </div>
-  
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-artificial--intelligence-blue?style=flat-square" alt="artificial-intelligence"/> <img src="https://img.shields.io/badge/-cuda-blue?style=flat-square" alt="cuda"/> <img src="https://img.shields.io/badge/-data--science-blue?style=flat-square" alt="data-science"/> </div>
 </div>
 </td>
 </tr>
 <tr valign="top">
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/my-template" target="_blank">My Template</a></h3>
-  <p><em>My template repository</em></p>
-  <div style="margin-top: 10px;">
-    
-  </div>
-  
-</div>
-</td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
@@ -97,22 +87,32 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/gas-tools" target="_blank">Gas Tools</a></h3>
-  <p><em>A set of helper functions ("gas-tools") for Google Apps Script projects. Includes tools for Google Drive, Sheets, caching, PDF conversion, and web requests.</em></p>
+  <h3><a href="https://github.com/YaronKoresh/SysMan" target="_blank">Sysman</a></h3>
+  <img src="https://img.shields.io/badge/⭐_Stars-1-yellow?style=for-the-badge" alt="1 stars"/><br/><p><em>SysMan is a monolithic, "Swiss Army Knife" utility designed for System Administrators and IT Support teams. It consolidates over 200 diagnostic, maintenance, and automation tools.</em></p>
   <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+    
   </div>
   
 </div>
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/definers" target="_blank">Definers</a></h3>
-  <img src="https://img.shields.io/badge/⭐_Stars-1-yellow?style=for-the-badge" alt="1 stars"/><br/><p><em>A comprehensive Python toolkit for AI, data processing, media manipulation, and system utilities.</em></p>
+  <h3><a href="https://github.com/YaronKoresh/my-template" target="_blank">My Template</a></h3>
+  <p><em>My template repository</em></p>
   <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    
   </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-artificial--intelligence-blue?style=flat-square" alt="artificial-intelligence"/> <img src="https://img.shields.io/badge/-cuda-blue?style=flat-square" alt="cuda"/> <img src="https://img.shields.io/badge/-data--science-blue?style=flat-square" alt="data-science"/> </div>
+  
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/gas-tools" target="_blank">Gas Tools</a></h3>
+  <p><em>A set of helper functions ("gas-tools") for Google Apps Script projects. Includes tools for Google Drive, Sheets, caching, PDF conversion, and web requests.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  </div>
+  
 </div>
 </td>
 </tr>
@@ -369,7 +369,7 @@
 
 <div align="center">
   <sub>
-    Last updated: December 17, 2025<br/>
+    Last updated: December 18, 2025<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
