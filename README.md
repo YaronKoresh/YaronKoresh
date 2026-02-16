@@ -29,7 +29,7 @@
 
 <h1 align='center'>🚀 My Projects <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" onerror="this.style.display='none'"/></h1>
 
-<p align="center">Explore my diverse portfolio of 34 public projects, automatically updated from GitHub.</p>
+<p align="center">Explore my diverse portfolio of 35 public projects, automatically updated from GitHub.</p>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
@@ -45,6 +45,16 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/audio-studio-pro" target="_blank">Audio Studio Pro</a></h3>
+  <img src="https://img.shields.io/badge/⭐_Stars-3-yellow?style=for-the-badge" alt="3 stars"/><br/><p><em>Audio Studio Pro is a comprehensive, AI-powered application for professional audio production.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-acapella--extractor-blue?style=flat-square" alt="acapella-extractor"/> <img src="https://img.shields.io/badge/-ai--chatbot-blue?style=flat-square" alt="ai-chatbot"/> <img src="https://img.shields.io/badge/-audio--analysis-blue?style=flat-square" alt="audio-analysis"/> </div>
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/Audacity-Plugins" target="_blank">Audacity Plugins</a></h3>
   <img src="https://img.shields.io/badge/⭐_Stars-3-yellow?style=for-the-badge" alt="3 stars"/><br/><p><em>Audacity plugins</em></p>
   <div style="margin-top: 10px;">
@@ -55,36 +65,16 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/audio-studio-pro" target="_blank">Audio Studio Pro</a></h3>
-  <img src="https://img.shields.io/badge/⭐_Stars-2-yellow?style=for-the-badge" alt="2 stars"/><br/><p><em>Audio Studio Pro is a comprehensive, AI-powered application for professional audio production.</em></p>
-  <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-acapella--extractor-blue?style=flat-square" alt="acapella-extractor"/> <img src="https://img.shields.io/badge/-ai--chatbot-blue?style=flat-square" alt="ai-chatbot"/> <img src="https://img.shields.io/badge/-audio--analysis-blue?style=flat-square" alt="audio-analysis"/> </div>
-</div>
-</td>
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/gesher" target="_blank">Gesher</a></h3>
+  <h3><a href="https://github.com/YaronKoresh/typescript-fullstack-template" target="_blank">Typescript Fullstack Template</a></h3>
   <p><em>No description available</em></p>
   <div style="margin-top: 10px;">
-    
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
   </div>
   
 </div>
 </td>
 </tr>
 <tr valign="top">
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/pakem" target="_blank">Pakem</a></h3>
-  <p><em>A repository packer that generates XML representations of codebases for use with LLMs and code analysis tools.</em></p>
-  <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-ai--tools-blue?style=flat-square" alt="ai-tools"/> <img src="https://img.shields.io/badge/-cli-blue?style=flat-square" alt="cli"/> <img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> </div>
-</div>
-</td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
@@ -97,6 +87,26 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/gesher" target="_blank">Gesher</a></h3>
+  <p><em>No description available</em></p>
+  <div style="margin-top: 10px;">
+    
+  </div>
+  
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/pakem" target="_blank">Pakem</a></h3>
+  <p><em>A repository packer that generates XML representations of codebases for use with LLMs and code analysis tools.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-ai--tools-blue?style=flat-square" alt="ai-tools"/> <img src="https://img.shields.io/badge/-cli-blue?style=flat-square" alt="cli"/> <img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> </div>
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/build-redis" target="_blank">Build Redis</a></h3>
   <p><em>No description available</em></p>
   <div style="margin-top: 10px;">
@@ -105,6 +115,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/math" target="_blank">Math</a></h3>
@@ -115,8 +127,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-bigint-blue?style=flat-square" alt="bigint"/> <img src="https://img.shields.io/badge/-decimal--numbers-blue?style=flat-square" alt="decimal-numbers"/> <img src="https://img.shields.io/badge/-math-blue?style=flat-square" alt="math"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/shual" target="_blank">Shual</a></h3>
@@ -147,6 +157,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/TurboScan" target="_blank">Turboscan</a></h3>
@@ -157,8 +169,6 @@
   
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/aetherium-qcom" target="_blank">Aetherium Qcom</a></h3>
@@ -189,6 +199,8 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-artificial--intelligence-blue?style=flat-square" alt="artificial-intelligence"/> <img src="https://img.shields.io/badge/-cuda-blue?style=flat-square" alt="cuda"/> <img src="https://img.shields.io/badge/-data--science-blue?style=flat-square" alt="data-science"/> </div>
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/enable-console" target="_blank">Enable Console</a></h3>
@@ -199,8 +211,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-binary--format-blue?style=flat-square" alt="binary-format"/> <img src="https://img.shields.io/badge/-cmd-blue?style=flat-square" alt="cmd"/> <img src="https://img.shields.io/badge/-console--log-blue?style=flat-square" alt="console-log"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/SysMan" target="_blank">Sysman</a></h3>
@@ -231,6 +241,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/browser" target="_blank">Browser</a></h3>
@@ -241,8 +253,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-browser-blue?style=flat-square" alt="browser"/> <img src="https://img.shields.io/badge/-cpp-blue?style=flat-square" alt="cpp"/> <img src="https://img.shields.io/badge/-mit--license-blue?style=flat-square" alt="mit-license"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/definers-rvc-files" target="_blank">Definers Rvc Files</a></h3>
@@ -273,6 +283,8 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> <img src="https://img.shields.io/badge/-decompilation-blue?style=flat-square" alt="decompilation"/> <img src="https://img.shields.io/badge/-disassemble-blue?style=flat-square" alt="disassemble"/> </div>
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/c-cpp-examples" target="_blank">C Cpp Examples</a></h3>
@@ -283,8 +295,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-c-blue?style=flat-square" alt="c"/> <img src="https://img.shields.io/badge/-code-blue?style=flat-square" alt="code"/> <img src="https://img.shields.io/badge/-cpp-blue?style=flat-square" alt="cpp"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/avast-retdec" target="_blank">Avast Retdec</a></h3>
@@ -315,6 +325,8 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-db-blue?style=flat-square" alt="db"/> <img src="https://img.shields.io/badge/-node--js-blue?style=flat-square" alt="node-js"/> </div>
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/merge-objects" target="_blank">Merge Objects</a></h3>
@@ -325,8 +337,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-javascript-blue?style=flat-square" alt="javascript"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/secure-caesar" target="_blank">Secure Caesar</a></h3>
@@ -357,6 +367,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/bases" target="_blank">Bases</a></h3>
@@ -367,8 +379,6 @@
   
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/giselle" target="_blank">Giselle</a></h3>
@@ -390,7 +400,6 @@
 </div>
 </td>
 <td width="25%" style="padding: 10px;"></td>
-<td width="25%" style="padding: 10px;"></td>
 </tr>
 </table>
 
@@ -411,7 +420,7 @@
 
 <div align="center">
   <sub>
-    Last updated: February 15, 2026<br/>
+    Last updated: February 16, 2026<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
