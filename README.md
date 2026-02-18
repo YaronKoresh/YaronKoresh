@@ -29,7 +29,7 @@
 
 <h1 align='center'>🚀 My Projects <img src="https://raw.githubusercontent.com/YaronKoresh/YaronKoresh/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" onerror="this.style.display='none'"/></h1>
 
-<p align="center">Explore my diverse portfolio of 35 public projects, automatically updated from GitHub.</p>
+<p align="center">Explore my diverse portfolio of 36 public projects, automatically updated from GitHub.</p>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
@@ -65,24 +65,44 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/pakem" target="_blank">Pakem</a></h3>
-  <p><em>A repository packer that generates XML representations of codebases for use with LLMs and code analysis tools.</em></p>
+  <h3><a href="https://github.com/YaronKoresh/python" target="_blank">Python</a></h3>
+  <p><em>Example Package</em></p>
   <div style="margin-top: 10px;">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-ai--tools-blue?style=flat-square" alt="ai-tools"/> <img src="https://img.shields.io/badge/-cli-blue?style=flat-square" alt="cli"/> <img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> </div>
+  
 </div>
 </td>
 </tr>
 <tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/Accessibility-Resolver" target="_blank">Accessibility Resolver</a></h3>
-  <p><em>Real-time browser script for automated web accessibility checks and auto-fixes.</em></p>
+  <h3><a href="https://github.com/YaronKoresh/voico" target="_blank">Voico</a></h3>
+  <p><em>Modular Voice Converter</em></p>
   <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </div>
   
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/TurboScan" target="_blank">Turboscan</a></h3>
+  <p><em>TurboScan - Maximum Performance Python Execution Engine</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </div>
+  
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/pakem" target="_blank">Pakem</a></h3>
+  <p><em>A repository packer that generates XML representations of codebases for use with LLMs and code analysis tools.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-ai--tools-blue?style=flat-square" alt="ai-tools"/> <img src="https://img.shields.io/badge/-cli-blue?style=flat-square" alt="cli"/> <img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> </div>
 </div>
 </td>
 <td width="25%" style="padding: 10px;">
@@ -95,12 +115,34 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/typescript-fullstack-template" target="_blank">Typescript Fullstack Template</a></h3>
+  <h3><a href="https://github.com/YaronKoresh/typescript" target="_blank">Typescript</a></h3>
   <p><em>No description available</em></p>
   <div style="margin-top: 10px;">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
+  </div>
+  
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
+  <p><em>Config files for my GitHub profile.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </div>
+  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-config-blue?style=flat-square" alt="config"/> <img src="https://img.shields.io/badge/-github--config-blue?style=flat-square" alt="github-config"/> </div>
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/Accessibility-Resolver" target="_blank">Accessibility Resolver</a></h3>
+  <p><em>Real-time browser script for automated web accessibility checks and auto-fixes.</em></p>
+  <div style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   </div>
   
 </div>
@@ -117,16 +159,6 @@
 </td>
 </tr>
 <tr valign="top">
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
-  <p><em>Config files for my GitHub profile.</em></p>
-  <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </div>
-  <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-config-blue?style=flat-square" alt="config"/> <img src="https://img.shields.io/badge/-github--config-blue?style=flat-square" alt="github-config"/> </div>
-</div>
-</td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/build-redis" target="_blank">Build Redis</a></h3>
@@ -157,18 +189,6 @@
   
 </div>
 </td>
-</tr>
-<tr valign="top">
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/TurboScan" target="_blank">Turboscan</a></h3>
-  <p><em>TurboScan - Maximum Performance Python Execution Engine</em></p>
-  <div style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </div>
-  
-</div>
-</td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/aetherium-qcom" target="_blank">Aetherium Qcom</a></h3>
@@ -179,16 +199,8 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-chat-blue?style=flat-square" alt="chat"/> <img src="https://img.shields.io/badge/-cryptography--tools-blue?style=flat-square" alt="cryptography-tools"/> <img src="https://img.shields.io/badge/-encryption-blue?style=flat-square" alt="encryption"/> </div>
 </div>
 </td>
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/my-template" target="_blank">My Template</a></h3>
-  <p><em>My template repository</em></p>
-  <div style="margin-top: 10px;">
-    
-  </div>
-  
-</div>
-</td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/definers" target="_blank">Definers</a></h3>
@@ -199,8 +211,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-artificial--intelligence-blue?style=flat-square" alt="artificial-intelligence"/> <img src="https://img.shields.io/badge/-cuda-blue?style=flat-square" alt="cuda"/> <img src="https://img.shields.io/badge/-data--science-blue?style=flat-square" alt="data-science"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/enable-console" target="_blank">Enable Console</a></h3>
@@ -231,6 +241,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/qtlite" target="_blank">Qtlite</a></h3>
@@ -241,8 +253,6 @@
   
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/browser" target="_blank">Browser</a></h3>
@@ -273,6 +283,8 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-lisp-blue?style=flat-square" alt="lisp"/> <img src="https://img.shields.io/badge/-mit--license-blue?style=flat-square" alt="mit-license"/> <img src="https://img.shields.io/badge/-musescore--plugin-blue?style=flat-square" alt="musescore-plugin"/> </div>
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/Reverse-Engineering-Tools" target="_blank">Reverse Engineering Tools</a></h3>
@@ -283,8 +295,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-code--analysis-blue?style=flat-square" alt="code-analysis"/> <img src="https://img.shields.io/badge/-decompilation-blue?style=flat-square" alt="decompilation"/> <img src="https://img.shields.io/badge/-disassemble-blue?style=flat-square" alt="disassemble"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/c-cpp-examples" target="_blank">C Cpp Examples</a></h3>
@@ -315,6 +325,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/db" target="_blank">Db</a></h3>
@@ -325,8 +337,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-db-blue?style=flat-square" alt="db"/> <img src="https://img.shields.io/badge/-node--js-blue?style=flat-square" alt="node-js"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/merge-objects" target="_blank">Merge Objects</a></h3>
@@ -357,6 +367,8 @@
   
 </div>
 </td>
+</tr>
+<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/match" target="_blank">Match</a></h3>
@@ -367,8 +379,6 @@
   
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/bases" target="_blank">Bases</a></h3>
@@ -399,7 +409,6 @@
   
 </div>
 </td>
-<td width="25%" style="padding: 10px;"></td>
 </tr>
 </table>
 
@@ -420,7 +429,7 @@
 
 <div align="center">
   <sub>
-    Last updated: February 17, 2026<br/>
+    Last updated: February 18, 2026<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
