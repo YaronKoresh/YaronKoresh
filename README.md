@@ -65,6 +65,28 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/python" target="_blank">Python</a></h3>
+  <p><em>Example Package</em></p>
+  <div style="margin-top: 10px;">
+    
+  </div>
+  
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
+  <h3><a href="https://github.com/YaronKoresh/gesher" target="_blank">Gesher</a></h3>
+  <p><em>A secure, pure-Python HTTP tunnel to expose local services to the internet.</em></p>
+  <div style="margin-top: 10px;">
+    
+  </div>
+  
+</div>
+</td>
+<td width="25%" style="padding: 10px;">
+<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/YaronKoresh" target="_blank">Yaronkoresh</a></h3>
   <p><em>Config files for my GitHub profile.</em></p>
   <div style="margin-top: 10px;">
@@ -73,8 +95,6 @@
   <div style="margin-top: 10px; font-size: 0.9em;"><img src="https://img.shields.io/badge/-config-blue?style=flat-square" alt="config"/> <img src="https://img.shields.io/badge/-github--config-blue?style=flat-square" alt="github-config"/> </div>
 </div>
 </td>
-</tr>
-<tr valign="top">
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/typescript" target="_blank">Typescript</a></h3>
@@ -87,28 +107,8 @@
 </td>
 <td width="25%" style="padding: 10px;">
 <div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/python" target="_blank">Python</a></h3>
-  <p><em>Example Package</em></p>
-  <div style="margin-top: 10px;">
-    
-  </div>
-  
-</div>
-</td>
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
   <h3><a href="https://github.com/YaronKoresh/Accessibility-Resolver" target="_blank">Accessibility Resolver</a></h3>
   <p><em>Real-time browser script for automated web accessibility checks and auto-fixes.</em></p>
-  <div style="margin-top: 10px;">
-    
-  </div>
-  
-</div>
-</td>
-<td width="25%" style="padding: 10px;">
-<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="https://github.com/YaronKoresh/gesher" target="_blank">Gesher</a></h3>
-  <p><em>A secure, pure-Python HTTP tunnel to expose local services to the internet.</em></p>
   <div style="margin-top: 10px;">
     
   </div>
@@ -429,7 +429,7 @@
 
 <div align="center">
   <sub>
-    Last updated: February 27, 2026<br/>
+    Last updated: February 28, 2026<br/>
     Generated automatically from GitHub API • <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a>
   </sub>
 </div>
