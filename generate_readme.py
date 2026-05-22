@@ -300,10 +300,6 @@ def create_project_card(project):
     stars = project['stars']
     archived = project.get('archived', False)
 
-    # Truncate long descriptions at a word boundary
-    if len(desc) > 133:
-        desc = desc[:130].rsplit(' ', 1)[0] + '...'
-
     # Language badge — flat-square to match stars badge
     lang_badge_html = ''
     if language and language in LANGUAGE_META:
@@ -412,21 +408,30 @@ my goal is to write software that is efficient, secure, and respects user autono
             # Sort by stars desc, then update time desc
             cat_repos.sort(key=lambda x: (x['stars'], x.get('updated_at', '')), reverse=True)
             cat_display = cat.replace('&', '&amp;')
-            if first_category:
-                first_category = False
-            else:
+
+            if not first_category:
                 readme += '<hr/>\n\n'
-            readme += f'<h2 align="center">{cat_display}</h2>\n\n'
+            first_category = False
+            
             readme += '<table width="100%" border="0" cellspacing="0" cellpadding="12">\n'
+
+            readme += '  <thead>\n'
+            readme += '    <tr>\n'
+            readme += f'      <th colspan="2" style="padding: 0; border: none;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" width="1000px" height="0px" style="max-width: 100%; display: block;" /><h3>{cat_display}</h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" width="1000px" height="0px" style="max-width: 100%; display: block;" /></th>\n'
+            readme += '    </tr>\n'
+            readme += '  </thead>\n'
+
+            readme += '  <tbody>\n'
             for i in range(0, len(cat_repos), 2):
-                readme += '<tr valign="top">\n'
+                readme += '    <tr valign="top">\n'
                 for j in range(2):
                     if i + j < len(cat_repos):
                         project = cat_repos[i + j]
-                        readme += f'<td width="50%" valign="top">{create_project_card(project)}</td>\n'
+                        readme += f'      <td width="50%" valign="top">{create_project_card(project)}</td>\n'
                     else:
-                        readme += '<td width="50%"></td>\n'
-                readme += '</tr>\n'
+                        readme += '      <td width="50%">&nbsp;</td>\n'
+                readme += '    </tr>\n'
+            readme += '  </tbody>\n'
             readme += '</table>\n\n'
     
     skills_badges = ' '.join(
