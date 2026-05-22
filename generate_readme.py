@@ -12,6 +12,7 @@ import json
 import os
 import re
 import subprocess
+from collections import Counter
 from datetime import datetime
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
@@ -150,7 +151,7 @@ def fetch_github_repos():
                     
                     repos.append({
                         'name': repo['name'],
-                        'display_name': repo['name'].replace('-', ' ').title(),
+                        'display_name': format_display_name(repo['name']),
                         'description': repo.get('description') or 'No description available',
                         'url': repo['html_url'],
                         'language': repo.get('language'),
@@ -181,6 +182,24 @@ def fetch_github_repos():
     return repos
 
 
+def fetch_github_profile():
+    """Fetch GitHub user profile data (followers, account age, etc.)."""
+    url = f'https://api.github.com/users/{GITHUB_USERNAME}'
+    headers = {
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': f'GitHub-Profile-Generator/{GITHUB_USERNAME}'
+    }
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'token {GITHUB_TOKEN}'
+    try:
+        req = Request(url, headers=headers)
+        with urlopen(req, timeout=30) as response:
+            return json.loads(response.read().decode('utf-8'))
+    except Exception as e:
+        print(f'Warning: Could not fetch profile data: {e}')
+        return {}
+
+
 def get_language_badge(language):
     """Generate a badge URL for a programming language."""
     badges = {
@@ -207,144 +226,235 @@ def get_language_badge(language):
     return badges.get(language, '')
 
 
+LANGUAGE_META = {
+    'Python':      ('3776AB', 'python',      'white'),
+    'JavaScript':  ('F7DF1E', 'javascript',  'black'),
+    'TypeScript':  ('3178C6', 'typescript',  'white'),
+    'Java':        ('ED8B00', 'openjdk',     'white'),
+    'C':           ('00599C', 'c',           'white'),
+    'C++':         ('00599C', 'cplusplus',   'white'),
+    'C#':          ('239120', 'csharp',      'white'),
+    'Go':          ('00ADD8', 'go',          'white'),
+    'Rust':        ('000000', 'rust',        'white'),
+    'Ruby':        ('CC342D', 'ruby',        'white'),
+    'PHP':         ('777BB4', 'php',         'white'),
+    'Swift':       ('FA7343', 'swift',       'white'),
+    'Kotlin':      ('0095D5', 'kotlin',      'white'),
+    'Shell':       ('4EAA25', 'gnubash',     'white'),
+    'HTML':        ('E34F26', 'html5',       'white'),
+    'CSS':         ('1572B6', 'css3',        'white'),
+    'Common Lisp': ('3C5280', None,          'white'),
+    'QML':         ('41CD52', 'qt',          'white'),
+}
+
+
+# Ordered list of (category_label, topic_keywords). First match wins.
+CATEGORY_KEYWORDS = [
+    ('Security & Cryptography', {
+        'cryptography', 'encryption', 'reverse-engineering', 'ghidra',
+        'security', 'hash', 'encryption-decryption', 'cryptography-tools',
+        'cipher', 'malware', 'forensics', 'pentest',
+    }),
+    ('Audio & Voice', {
+        'audio', 'voice', 'music', 'acapella', 'rvc', 'audacity',
+        'audio-processing', 'audio-analysis', 'acapella-extractor',
+        'speech', 'tts', 'midi',
+    }),
+    ('AI & Data Science', {
+        'artificial-intelligence', 'machine-learning', 'data-science',
+        'deep-learning', 'cuda', 'ai-chatbot', 'llm', 'neural-network',
+        'nlp', 'computer-vision',
+    }),
+    ('Developer Tools', {
+        'cli', 'toolkit', 'tools', 'automation', 'packaging', 'codebase',
+        'code-analysis', 'context-window', 'template-project', 'utility',
+        'utilities', 'devtools', 'plugin', 'plugins',
+    }),
+    ('Web & Accessibility', {
+        'web', 'browser', 'accessibility', 'frontend',
+        'html', 'css', 'dom',
+    }),
+]
+
+
+def language_stat_badge(lang, count):
+    """Build a static shields.io badge for a language with repo count."""
+    color, logo_name, logo_color = LANGUAGE_META.get(lang, ('555555', None, 'white'))
+    # shields.io path encoding: '-' -> '--', '_' -> '__', ' ' -> '_'
+    label = (
+        lang.replace('-', '--').replace('_', '__')
+            .replace(' ', '_').replace('+', '%2B').replace('#', '%23')
+    )
+    url = f'https://img.shields.io/badge/{label}-{count}-{color}?style=flat-square'
+    if logo_name:
+        url += f'&logo={logo_name}&logoColor={logo_color}'
+    return f'<img src="{url}" alt="{lang}: {count} repos"/>'
+
+
 def create_project_card(project):
     """Create an HTML/Markdown card for a single project."""
     name = project['display_name']
     desc = project['description']
     url = project['url']
     language = project.get('language')
-    lang_badge = get_language_badge(language) if language else ''
     stars = project['stars']
-    topics = project.get('topics', [])
     archived = project.get('archived', False)
-    
-    # Add archived badge if needed
-    status = ""
-    if archived:
-        status = '<img src="https://img.shields.io/badge/Status-Archived-yellow?style=for-the-badge" alt="Archived"/><br/>'
-    
-    # Star badge
-    star_badge = ""
+
+    # Truncate long descriptions at a word boundary
+    if len(desc) > 133:
+        desc = desc[:130].rsplit(' ', 1)[0] + '...'
+
+    # Language badge — flat-square to match stars badge
+    lang_badge_html = ''
+    if language and language in LANGUAGE_META:
+        color, logo_name, logo_color = LANGUAGE_META[language]
+        label = language.replace('-', '--').replace('_', '__').replace(' ', '_').replace('+', '%2B').replace('#', '%23')
+        badge_url = f'https://img.shields.io/badge/{label}-{color}?style=flat-square'
+        if logo_name:
+            badge_url += f'&logo={logo_name}&logoColor={logo_color}'
+        lang_badge_html = f'<img src="{badge_url}" alt="{language}"/>'
+
+    # Badge row: stars, archived status, language — all flat-square
+    badge_parts = []
     if stars > 0:
-        star_badge = f'<img src="https://img.shields.io/badge/⭐_Stars-{stars}-yellow?style=for-the-badge" alt="{stars} stars"/><br/>'
-    
-    # Language badge
-    lang_display = ""
-    if lang_badge and language:
-        lang_display = f'<img src="{lang_badge}" alt="{language}"/>'
-    
-    # Topic badges (limit to 3 for space)
-    topic_badges = ""
-    if topics:
-        for topic in topics[:3]:
-            topic_badges += f'<img src="https://img.shields.io/badge/-{topic.replace("-", "--")}-blue?style=flat-square" alt="{topic}"/> '
-    
-    card = f'''<div style="border: 1px solid #30363d; border-radius: 8px; padding: 20px; background: linear-gradient(145deg, rgba(36, 40, 59, 0.2), rgba(46, 51, 77, 0.2)); height: 100%; min-height: 200px;">
-  <h3><a href="{url}" target="_blank">{name}</a></h3>
-  {status}{star_badge}<p><em>{desc}</em></p>
-  <div style="margin-top: 10px;">
-    {lang_display}
-  </div>
-  {f'<div style="margin-top: 10px; font-size: 0.9em;">{topic_badges}</div>' if topic_badges else ''}
-</div>'''
-    return card
+        badge_parts.append(f'<img src="https://img.shields.io/badge/Stars-{stars}-yellow?style=flat-square" alt="{stars} stars"/>')
+    if archived:
+        badge_parts.append('<img src="https://img.shields.io/badge/archived-lightgrey?style=flat-square" alt="Archived"/>')
+    if lang_badge_html:
+        badge_parts.append(lang_badge_html)
+
+    # All content on one line — blank lines inside a GitHub HTML table break the parser
+    parts = [f'<h3><a href="{url}" target="_blank">{name}</a></h3>']
+    if badge_parts:
+        parts.append('<p>' + ' &nbsp; '.join(badge_parts) + '</p>')
+    if desc and desc != 'No description available':
+        parts.append(f'<p><em>{desc}</em></p>')
+
+    return '<div align="center">' + ''.join(parts) + '</div>'
 
 
-def generate_readme(repos):
+def generate_readme(repos, profile=None):
     """Generate the complete README.md content from repository list."""
     
-    # Header Section with error handling
-    readme = f'''<div align="center">
-  <img src="https://raw.githubusercontent.com/{PROFILE_REPO}/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="GitHub Contribution Snake" onerror="this.style.display='none'"/>
-</div>
+    # Compute all stats from locally fetched API data — no third-party services
+    total_stars = sum(r.get('stars', 0) for r in repos)
+    followers = profile.get('followers', 0) if profile else 0
+    member_since = profile.get('created_at', '')[:4] if profile and profile.get('created_at') else ''
+    lang_counts = Counter(r['language'] for r in repos if r.get('language'))
+    top_langs = lang_counts.most_common(8)
+    lang_badges_html = ' '.join(language_stat_badge(lang, count) for lang, count in top_langs)
 
-<div align="center"><img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/section-header.svg" alt="" onerror="this.style.display='none'"/></div>
+    stats_cells = [
+        f'<td align="center"><strong>{len(repos)}</strong><br/><sub>repositories</sub></td>',
+        f'<td align="center"><strong>{total_stars}</strong><br/><sub>stars</sub></td>',
+    ]
+    if followers:
+        stats_cells.append(f'<td align="center"><strong>{followers}</strong><br/><sub>followers</sub></td>')
+    if member_since:
+        stats_cells.append(f'<td align="center"><strong>{member_since}</strong><br/><sub>member since</sub></td>')
+    stats_row = ''.join(stats_cells)
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi+there+%F0%9F%91%8B;I'm+{format_display_name(GITHUB_USERNAME).replace(' ', '+')};Developer+%26+Creator" alt="Typing SVG" onerror="this.style.display='none'"/>
-</div>
-
-<div align="center" style="background-color: #0D1117; border-radius: 8px; border: 1px solid #30363d; padding: 10px; margin: 40px auto 20px auto; max-width: 800px;">
-  <p align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1000&color=A4D5FF&background=0D1117&center=true&vCenter=true&random=false&width=800&lines=I+believe+the+most+impactful+technology+arises+from+the+synthesis+of+disparate+fields.;My+work+is+a+continuous+exploration+of+this+principle;whether+applying+quantum+physics+to+secure+communications%2C;architecting+system-level+tools%2C+or+ensuring+digital+accessibility.;My+goal+is+not+just+to+write+code%2C+but+to+build+instruments;for+security%2C+for+efficiency%2C+and+for+creativity;that+empower+the+end-user+and+respect+their+autonomy." alt="Typing SVG" onerror="this.style.display='none'"/>
-    </a>
-  </p>
-</div>
-
-<div align="center">
-  <a href="https://www.facebook.com/profile.php?id=100071801628056" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
-  </a>
-  <a href="mailto:aharonkoresh1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
-
-<div align="center"><img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/section-header.svg" alt="" onerror="this.style.display='none'"/></div>
-
-'''
-    
-    # Projects Section - no categories, just chronological order with featured first
-    readme += f'''<h1 align='center'>🚀 My Projects <img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" onerror="this.style.display='none'"/></h1>
-
-<p align="center">Explore my diverse portfolio of {len(repos)} public projects, automatically updated from GitHub.</p>
-
-'''
-    
-    if not repos:
-        readme += '<p align="center"><em>No public repositories found.</em></p>\n\n'
-    else:
-        # Sort: featured first (by stars), then by last update
-        featured = [r for r in repos if r.get('featured', False)]
-        regular = [r for r in repos if not r.get('featured', False)]
-        
-        # Sort featured by stars (descending), regular by update time (descending)
-        featured.sort(key=lambda x: x['stars'], reverse=True)
-        regular.sort(key=lambda x: x.get('updated_at', ''), reverse=True)
-        
-        all_projects = featured + regular
-        
-        # Create table layout (4 columns)
-        readme += '<table width="100%" border="0" cellspacing="0" cellpadding="0">\n'
-        
-        for i in range(0, len(all_projects), 4):
-            readme += '<tr valign="top">\n'
-            for j in range(4):
-                if i + j < len(all_projects):
-                    project = all_projects[i + j]
-                    readme += f'<td width="25%" style="padding: 10px;">\n{create_project_card(project)}\n</td>\n'
-                else:
-                    readme += '<td width="25%" style="padding: 10px;"></td>\n'
-            readme += '</tr>\n'
-        
-        readme += '</table>\n\n'
-    
-    # Stats Section with error handling
-    # Calculate cache bust timestamp once for all stats images
-    cache_bust_ts = datetime.now().timestamp()
-    
-    readme += f'''<div align="center"><img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/section-header.svg" alt="" onerror="this.style.display='none'"/></div>
-
-<h1 align='center'>📚 My Skills <img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/blinking-cursor.svg" style="height: 24px; vertical-align: middle;" onerror="this.style.display='none'"/></h1>
+    # Header Section
+    display_name = format_display_name(GITHUB_USERNAME)
+    readme = f'''<h1 align="center">{display_name}</h1>
+<h1 align="center">Software Developer &nbsp;&middot;&nbsp; Security &nbsp;&middot;&nbsp; Performance &nbsp;&middot;&nbsp; Accessibility</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/skills.svg" alt="My Skills" onerror="this.style.display='none'"/>
+I build tools at the intersection of security, performance, and digital accessibility.<br/>
+From reverse-engineering and cryptography to system-level utilities and AI tooling,<br/>
+my goal is to write software that is efficient, secure, and respects user autonomy.
 </p>
 
-<div align='center' style="margin-top: 30px;">
-  <h1>🤝 Connect & Collaborate <img src="https://raw.githubusercontent.com/{PROFILE_REPO}/main/.github/assets/blinking-cursor.svg" style="height: 20px; vertical-align: middle;" onerror="this.style.display='none'"/></h1>
-  <p>I'm always open to connecting with fellow developers, researchers, and creators.</p>
-</div>
+<p align="center">
+  <a href="mailto:aharonkoresh1@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-<div align="center">
-  <sub>
-    Last updated: {datetime.now().strftime('%B %d, %Y')}<br/>
-    Generated automatically from GitHub API • <a href="https://github.com/{GITHUB_USERNAME}/{GITHUB_USERNAME}/actions">View Workflow</a>
-  </sub>
-</div>
+<h1 align="center">Overview</h1>
+
+<table align="center"><tr>{stats_row}</tr></table>
+
+<p align="center">{lang_badges_html}</p>
+
+---
+
+'''
+    
+    # Projects Section — grouped by category, profile meta-repo excluded
+    project_repos = [r for r in repos if r['name'].lower() != GITHUB_USERNAME.lower()]
+
+    readme += '<h1 align="center">Projects</h1>\n\n'
+
+    if not project_repos:
+        readme += '<p align="center"><em>No public repositories found.</em></p>\n\n'
+    else:
+        # Assign each repo to the first matching category
+        categorized = {cat: [] for cat, _ in CATEGORY_KEYWORDS}
+        categorized['Other'] = []
+        for repo in project_repos:
+            topics = set(repo.get('topics', []))
+            matched = False
+            for cat, keywords in CATEGORY_KEYWORDS:
+                if topics & keywords:
+                    categorized[cat].append(repo)
+                    matched = True
+                    break
+            if not matched:
+                categorized['Other'].append(repo)
+
+        first_category = True
+        for cat, cat_repos in categorized.items():
+            if not cat_repos:
+                continue
+            # Sort by stars desc, then update time desc
+            cat_repos.sort(key=lambda x: (x['stars'], x.get('updated_at', '')), reverse=True)
+            cat_display = cat.replace('&', '&amp;')
+            if first_category:
+                first_category = False
+            else:
+                readme += '<hr/>\n\n'
+            readme += f'<h2 align="center">{cat_display}</h2>\n\n'
+            readme += '<table width="100%" border="0" cellspacing="0" cellpadding="12">\n'
+            for i in range(0, len(cat_repos), 2):
+                readme += '<tr valign="top">\n'
+                for j in range(2):
+                    if i + j < len(cat_repos):
+                        project = cat_repos[i + j]
+                        readme += f'<td width="50%" valign="top">{create_project_card(project)}</td>\n'
+                    else:
+                        readme += '<td width="50%"></td>\n'
+                readme += '</tr>\n'
+            readme += '</table>\n\n'
+    
+    skills_badges = ' '.join(
+        f'<img src="{get_language_badge(lang)}" alt="{lang}"/>'
+        for lang, _ in top_langs
+        if get_language_badge(lang)
+    )
+
+    readme += f'''---
+
+<h1 align="center">Technical Stack</h1>
+
+<p align="center">{skills_badges}</p>
+
+---
+
+<h1 align="center">Connect</h1>
+
+<p align="center">
+Open to connecting with fellow developers and researchers.<br/>
+Reach out via <a href="mailto:aharonkoresh1@gmail.com">email</a>.
+</p>
+
+---
+
+<p align="center">
+  <sub>Last updated: {datetime.now().strftime('%B %d, %Y')} &nbsp;&middot;&nbsp; Generated automatically from GitHub API &nbsp;&middot;&nbsp; <a href="https://github.com/{GITHUB_USERNAME}/{GITHUB_USERNAME}/actions">View Workflow</a></sub>
+</p>
 '''
     
     return readme
@@ -352,39 +462,25 @@ def generate_readme(repos):
 
 def main():
     """Main function to generate README."""
-    print("🚀 Generating Professional README with GitHub API...")
-    print(f"📍 Target User: {GITHUB_USERNAME}")
-    
-    # Fetch repositories from GitHub API
+    print(f"Generating README for: {GITHUB_USERNAME}")
+
+    # Fetch profile and repositories from GitHub API
+    profile = fetch_github_profile()
     repos = fetch_github_repos()
-    
+
     if not repos:
-        print("⚠️  No repositories found. README will be generated with empty project list.")
-    
+        print("Warning: No repositories found. README will be generated with empty project list.")
+
     # Generate README
-    readme_content = generate_readme(repos)
-    
+    readme_content = generate_readme(repos, profile)
+
     # Write to file
     output_file = 'README.md'
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(readme_content)
-    
-    print(f"✓ Generated {output_file}")
-    print(f"  Total projects: {len(repos)}")
-    if repos:
-        featured_count = sum(1 for r in repos if r.get('featured', False))
-        print(f"  Featured projects: {featured_count}")
-        archived_count = sum(1 for r in repos if r.get('archived', False))
-        if archived_count:
-            print(f"  Archived projects: {archived_count}")
-    
-    print("\n✨ README.md has been generated successfully!")
-    print("\n📝 The README is now automatically generated from GitHub API.")
-    print("   It will update automatically via GitHub Actions workflow.")
-    
-    return 0  # Explicit return for success
 
-
+    print(f"Generated {output_file} with {len(repos)} projects")
+    return 0
 if __name__ == '__main__':
     import sys
     sys.exit(main())
