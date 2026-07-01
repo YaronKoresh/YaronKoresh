@@ -17,7 +17,7 @@ my goal is to write software that is efficient, secure, and respects user autono
 
 <h1 align="center">Overview</h1>
 
-<table align="center"><tr><td align="center"><strong>35</strong><br/><sub>repositories</sub></td><td align="center"><strong>19</strong><br/><sub>stars</sub></td><td align="center"><strong>5</strong><br/><sub>followers</sub></td><td align="center"><strong>2018</strong><br/><sub>member since</sub></td></tr></table>
+<table align="center"><tr><td align="center"><strong>35</strong><br/><sub>repositories</sub></td><td align="center"><strong>18</strong><br/><sub>stars</sub></td><td align="center"><strong>5</strong><br/><sub>followers</sub></td><td align="center"><strong>2018</strong><br/><sub>member since</sub></td></tr></table>
 
 <p align="center"><img src="https://img.shields.io/badge/Python-12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python: 12 repos"/> <img src="https://img.shields.io/badge/JavaScript-10-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript: 10 repos"/> <img src="https://img.shields.io/badge/Batchfile-3-555555?style=flat-square" alt="Batchfile: 3 repos"/> <img src="https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++: 3 repos"/> <img src="https://img.shields.io/badge/Common_Lisp-1-3C5280?style=flat-square" alt="Common Lisp: 1 repos"/> <img src="https://img.shields.io/badge/QML-1-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QML: 1 repos"/> <img src="https://img.shields.io/badge/C-1-00599C?style=flat-square&logo=c&logoColor=white" alt="C: 1 repos"/></p>
 
@@ -54,7 +54,7 @@ my goal is to write software that is efficient, secure, and respects user autono
   <tbody>
     <tr valign="top">
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/audio-studio-pro" target="_blank">Audio Studio Pro</a></h3><p><img src="https://img.shields.io/badge/Stars-3-yellow?style=flat-square" alt="3 stars"/> &nbsp; <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></p><p><em>Audio Studio Pro is a comprehensive, AI-powered application for professional audio production.</em></p></div></td>
-      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/Audacity-Plugins" target="_blank">Audacity Plugins</a></h3><p><img src="https://img.shields.io/badge/Stars-3-yellow?style=flat-square" alt="3 stars"/> &nbsp; <img src="https://img.shields.io/badge/Common_Lisp-3C5280?style=flat-square" alt="Common Lisp"/></p><p><em>Audacity plugins</em></p></div></td>
+      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/Audacity-Plugins" target="_blank">Audacity Plugins</a></h3><p><img src="https://img.shields.io/badge/Stars-2-yellow?style=flat-square" alt="2 stars"/> &nbsp; <img src="https://img.shields.io/badge/Common_Lisp-3C5280?style=flat-square" alt="Common Lisp"/></p><p><em>Audacity plugins</em></p></div></td>
     </tr>
   </tbody>
 </table>
@@ -185,5 +185,5 @@ Reach out via <a href="mailto:aharonkoresh1@gmail.com">email</a>.
 ---
 
 <p align="center">
-  <sub>Last updated: June 30, 2026 &nbsp;&middot;&nbsp; Generated automatically from GitHub API &nbsp;&middot;&nbsp; <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a></sub>
+  <sub>Last updated: July 01, 2026 &nbsp;&middot;&nbsp; Generated automatically from GitHub API &nbsp;&middot;&nbsp; <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a></sub>
 </p>
