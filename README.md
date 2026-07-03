@@ -19,7 +19,7 @@ my goal is to write software that is efficient, secure, and respects user autono
 
 <table align="center"><tr><td align="center"><strong>35</strong><br/><sub>repositories</sub></td><td align="center"><strong>18</strong><br/><sub>stars</sub></td><td align="center"><strong>5</strong><br/><sub>followers</sub></td><td align="center"><strong>2018</strong><br/><sub>member since</sub></td></tr></table>
 
-<p align="center"><img src="https://img.shields.io/badge/Python-12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python: 12 repos"/> <img src="https://img.shields.io/badge/JavaScript-10-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript: 10 repos"/> <img src="https://img.shields.io/badge/Batchfile-3-555555?style=flat-square" alt="Batchfile: 3 repos"/> <img src="https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++: 3 repos"/> <img src="https://img.shields.io/badge/Common_Lisp-1-3C5280?style=flat-square" alt="Common Lisp: 1 repos"/> <img src="https://img.shields.io/badge/QML-1-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QML: 1 repos"/> <img src="https://img.shields.io/badge/C-1-00599C?style=flat-square&logo=c&logoColor=white" alt="C: 1 repos"/></p>
+<p align="center"><img src="https://img.shields.io/badge/Python-12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python: 12 repos"/> <img src="https://img.shields.io/badge/JavaScript-11-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript: 11 repos"/> <img src="https://img.shields.io/badge/C%2B%2B-3-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++: 3 repos"/> <img src="https://img.shields.io/badge/Batchfile-2-555555?style=flat-square" alt="Batchfile: 2 repos"/> <img src="https://img.shields.io/badge/Common_Lisp-1-3C5280?style=flat-square" alt="Common Lisp: 1 repos"/> <img src="https://img.shields.io/badge/QML-1-41CD52?style=flat-square&logo=qt&logoColor=white" alt="QML: 1 repos"/> <img src="https://img.shields.io/badge/C-1-00599C?style=flat-square&logo=c&logoColor=white" alt="C: 1 repos"/></p>
 
 ---
 
@@ -122,15 +122,15 @@ my goal is to write software that is efficient, secure, and respects user autono
     </tr>
     <tr valign="top">
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/bases" target="_blank">Bases</a></h3><p><img src="https://img.shields.io/badge/Stars-1-yellow?style=flat-square" alt="1 stars"/> &nbsp; <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/></p><p><em>Base encoding/decoding algorithm, with the ability for custom character sets of choice</em></p></div></td>
+      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/Accessibility-Resolver" target="_blank">Accessibility Resolver</a></h3><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/></p><p><em>Real-time browser script for automated web accessibility checks and auto-fixes.</em></p></div></td>
+    </tr>
+    <tr valign="top">
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/enable-console" target="_blank">Enable Console</a></h3><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></p><p><em>Unlock Windows GUI apps terminal logs.</em></p></div></td>
-    </tr>
-    <tr valign="top">
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/git-manager" target="_blank">Git Manager</a></h3><p><em>Single-file Windows batch script that turns Git workflows into a guided menu, automates common repo tasks, and includes smart conflict resolution.</em></p></div></td>
-      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/math" target="_blank">Math</a></h3><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/></p><p><em>Execute unlimited size mathematics, on positive/negative integers/decimals.</em></p></div></td>
     </tr>
     <tr valign="top">
+      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/math" target="_blank">Math</a></h3><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/></p><p><em>Execute unlimited size mathematics, on positive/negative integers/decimals.</em></p></div></td>
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/definers-rvc-files" target="_blank">Definers Rvc Files</a></h3><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></p><p><em>definers package modified RVC files</em></p></div></td>
-      <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/Accessibility-Resolver" target="_blank">Accessibility Resolver</a></h3><p><em>Real-time browser script for automated web accessibility checks and auto-fixes.</em></p></div></td>
     </tr>
     <tr valign="top">
       <td width="50%" valign="top"><div align="center"><h3><a href="https://github.com/YaronKoresh/voico" target="_blank">Voico</a></h3><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></p><p><em>Modular Voice Converter</em></p></div></td>
@@ -185,5 +185,5 @@ Reach out via <a href="mailto:aharonkoresh1@gmail.com">email</a>.
 ---
 
 <p align="center">
-  <sub>Last updated: July 02, 2026 &nbsp;&middot;&nbsp; Generated automatically from GitHub API &nbsp;&middot;&nbsp; <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a></sub>
+  <sub>Last updated: July 03, 2026 &nbsp;&middot;&nbsp; Generated automatically from GitHub API &nbsp;&middot;&nbsp; <a href="https://github.com/YaronKoresh/YaronKoresh/actions">View Workflow</a></sub>
 </p>
